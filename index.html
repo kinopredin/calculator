@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+     
+<link rel="stylesheet" href="main.css">
+<!-----------------style---------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-----------------------------------style--------->
+</head>
+<body>
+
+   <h1>Calculator</h1>
+
+   <div class="container" style="margin-top:64px;">
+
+    <form>
+        <p>casio</p>
+
+        <input type="text" id="display">
+        <br>
+
+        <input class="btn" onclick="displaydata(7)" type="button" value="7">
+        <input class="btn" onclick="displaydata(8)" type="button" value="8">
+
+        <input class="btn" onclick="displaydata(9)" type="button" value="9">
+
+        <input class="btn sum" onclick="displaydata('/')"  type="button" value="/">
+<br>
+<input class="btn" onclick="displaydata(4)" type="button" value="4">
+        <input class="btn" onclick="displaydata(5)" type="button" value="5">
+
+        <input class="btn" onclick="displaydata(6)" type="button" value="6">
+
+        <input class="btn sum"onclick="displaydata('*')" type="button" value="*">
+<br>
+<input class="btn" onclick="displaydata(1)"  type="button" value="1">
+        <input class="btn" onclick="displaydata(2)" type="button" value="2">
+
+        <input class="btn" onclick="displaydata()" type="button" value="3">
+
+        <input class="btn sum" onclick="displaydata('+')" type="button" value="+">
+<br>
+<input class="btn clear" onclick="allclear()" type="button" value="c">
+        <input class="btn" onclick="displaydata(0)" type="button" value="0">
+
+        <input class="btn result" onclick="find()"  type="button" value="=">
+
+        <input class="btn sum" onclick="displaydata('-')" type="button" value="-">
+<br>
+
+<input class="btn " onclick="backspace ()" type="button" value="x" style="width: 150px; margin-left:120px; padding-bottom:78px;">
+</form>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="c.js"></script>
+    </body>
+    </html>
